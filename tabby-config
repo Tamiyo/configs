@@ -1,0 +1,175 @@
+version: 3
+profiles: []
+hotkeys:
+  toggle-window:
+    - Ctrl-Space
+  copy-current-path: []
+  ctrl-c:
+    - Ctrl-C
+  copy:
+    - ⌘-C
+  paste:
+    - ⌘-V
+  clear: []
+  select-all:
+    - ⌘-A
+  zoom-in:
+    - ⌘-=
+    - ⌘-Shift-=
+  zoom-out:
+    - ⌘--
+    - ⌘-Shift--
+  reset-zoom:
+    - ⌘-0
+  home:
+    - ⌘-Left
+    - Home
+  end:
+    - ⌘-Right
+    - End
+  previous-word:
+    - ⌥-Left
+  next-word:
+    - ⌥-Right
+  delete-previous-word:
+    - ⌥-Backspace
+  delete-next-word:
+    - ⌥-Delete
+  search:
+    - ⌘-F
+  pane-focus-all:
+    - ⌘-Shift-I
+  restart-telnet-session: []
+  restart-ssh-session: []
+  launch-winscp: []
+  settings:
+    - ⌘-,
+  serial:
+    - Alt-K
+  restart-serial-session: []
+  new-window: []
+  new-tab:
+    - ⌘-T
+  profile: {}
+  profile-selectors: {}
+  toggle-fullscreen:
+    - Ctrl+⌘+F
+  close-tab:
+    - ⌘-W
+  reopen-tab:
+    - ⌘-Shift-T
+  toggle-last-tab: []
+  rename-tab:
+    - ⌘-R
+  next-tab:
+    - Ctrl-Tab
+  previous-tab:
+    - Ctrl-Shift-Tab
+  move-tab-left:
+    - ⌘-Shift-Left
+  move-tab-right:
+    - ⌘-Shift-Right
+  rearrange-panes:
+    - ⌘-Shift
+  tab-1:
+    - ⌘-1
+  tab-2:
+    - ⌘-2
+  tab-3:
+    - ⌘-3
+  tab-4:
+    - ⌘-4
+  tab-5:
+    - ⌘-5
+  tab-6:
+    - ⌘-6
+  tab-7:
+    - ⌘-7
+  tab-8:
+    - ⌘-8
+  tab-9:
+    - ⌘-9
+  tab-10:
+    - ⌘-0
+  tab-11: []
+  tab-12: []
+  tab-13: []
+  tab-14: []
+  tab-15: []
+  tab-16: []
+  tab-17: []
+  tab-18: []
+  tab-19: []
+  tab-20: []
+  split-right:
+    - ⌘-Shift-D
+  split-bottom:
+    - ⌘-D
+  split-left: []
+  split-top: []
+  pane-nav-right:
+    - ⌘-⌥-Right
+  pane-nav-down:
+    - ⌘-⌥-Down
+  pane-nav-up:
+    - ⌘-⌥-Up
+  pane-nav-left:
+    - ⌘-⌥-Left
+  pane-nav-previous:
+    - ⌘-⌥-[
+  pane-nav-next:
+    - ⌘-⌥-]
+  pane-maximize:
+    - ⌘-⌥-Enter
+  close-pane:
+    - ⌘-Shift-W
+  profile-selector:
+    - ⌘-E
+  switch-profile:
+    - ⌘-Shift-E
+  duplicate-tab: []
+terminal:
+  searchOptions: {}
+  colorScheme:
+    name: MaterialDark
+    foreground: '#e5e5e5'
+    background: '#232322'
+    cursor: '#16afca'
+    colors:
+      - '#212121'
+      - '#b7141f'
+      - '#457b24'
+      - '#f6981e'
+      - '#134eb2'
+      - '#0FF5FF'
+      - '#0e717c'
+      - '#efefef'
+      - '#424242'
+      - '#e83b3f'
+      - '#7aba3a'
+      - '#ffea2e'
+      - '#54a4f3'
+      - '#aa4dbc'
+      - '#26bbd1'
+      - '#d9d9d9'
+  customColorSchemes: []
+  fontSize: 12
+  font: Hack Nerd Font Mono
+  cursor: beam
+  hideTabIndex: true
+ssh: {}
+configSync:
+  parts: {}
+appearance:
+  tabsLocation: bottom
+pluginBlacklist:
+  - theme-hype
+enableAnalytics: false
+enableWelcomeTab: false
+profileDefaults: {}
+electronFlags:
+  - - force_discrete_gpu
+    - '0'
+enableAutomaticUpdates: false
+clickableLinks: {}
+
